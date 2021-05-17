@@ -1,0 +1,22 @@
+1. Please add this to your virtual host
+
+<VirtualHost *>
+   DocumentRoot "C:/wamp/www/devtest"
+   ServerName devtest
+   ServerAlias *devtest
+   
+    <Directory "/">
+       AllowOverride All
+       Require all granted
+   </Directory>
+</VirtualHost>
+
+
+2. extract file to wamp/www folder
+3. add to host.file
+4. for task3, db backup is provided and sample cvs file in devtest/db_backup
+5. run to browser http://devtest/
+6. Hover dropdown header for link of each task program
+
+
+Thank you.
